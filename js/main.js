@@ -5,7 +5,7 @@ const minuteSelector = document.querySelector('.minute');
 const secondSelector = document.querySelector('.second');
 
 const timer = () =>{
-  const countDate = new Date('Jan 01, 2023 00:00:00').getTime();
+  const countDate = new Date('Jan 01, 2024 00:00:00').getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
